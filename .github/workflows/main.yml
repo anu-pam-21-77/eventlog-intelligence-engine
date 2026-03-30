@@ -3,9 +3,9 @@ run-name: ${{ github.actor }} is testing out event log engine 🚀
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} "
-      - run: python3 --version
-      - run: python3 src/main.py
+      - run: python --version
+      - run: python src/main.py
