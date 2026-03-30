@@ -1,0 +1,8 @@
+name: Event Log Intellgence Engine
+run-name: ${{ github.actor }} is testing out event log engine 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} 
